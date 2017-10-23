@@ -1,38 +1,20 @@
-﻿/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
-  font-family: 'Lato', sans-serif; 
-  padding-bottom: 40px;
-  color: #00C0ED;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-
-/* header NAVIGATION */
 
 header {
-  padding: 5px 0;
+  padding: 20px 0;
+
 }
 
-header row {
+
+
+header .row,
+footer .row {
   display: flex;
-  flex-direction: row;
   align-items: center;
- 
-  
 }
-
-header li {
-  padding: 1 5px;
-  margin-top: 10;
-}
-
 
 header a {
   height: 60px;
@@ -41,6 +23,84 @@ header a {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+header div {
+  font-weight: 700;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('StockSnap.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
 }
 
 
@@ -92,7 +152,7 @@ header a {
 }
 
 .marketing .k {
-	background-color:#00C0ED;
+  background-color:#00C0ED;
 }
 
 .img-circle {
@@ -207,7 +267,7 @@ color: #FDD706;
         background-color:#fff; /* dodajemy kolor tła naszemu formularzowi */
         border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
         border-radius:10px; /* zaokrąglamy tło naszego formularza */
-		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+    padding:20px; /* dodajemy margines wewnątrz naszego formularza */
         margin-top:20px; /* dodajemy margines górny naszego formularza */
 }
 
@@ -222,29 +282,29 @@ color: #FDD706;
 
 #formularz textarea,
 #formularz input {
-	padding:5px; /* dodajemy margines wewnątrz naszego pola */
-	border-radius:3px; /* dodajemy zaokraglone rogi */
-	border:1px solid #ccc; /* dodajemy obramowanie */
-	margin-bottom:25px; /* dodajemy margines dolny */
-	width:245px; /* ustalamy szerokość */
+  padding:5px; /* dodajemy margines wewnątrz naszego pola */
+  border-radius:3px; /* dodajemy zaokraglone rogi */
+  border:1px solid #ccc; /* dodajemy obramowanie */
+  margin-bottom:25px; /* dodajemy margines dolny */
+  width:245px; /* ustalamy szerokość */
 }
 
 #formularz input#submit {
-	width:245px; /* ustalamy szerokość */
-	cursor:pointer; /* zmieniamy kursor */
-	margin-bottom:0px;/* resetujemy margines dolny */
+  width:245px; /* ustalamy szerokość */
+  cursor:pointer; /* zmieniamy kursor */
+  margin-bottom:0px;/* resetujemy margines dolny */
 }
 
 #formularz p.copy {
-	color:#555555; /* ustawiamy kolor czcionki */
-	margin-bottom:0px; /* resetujemy margines dolny */
-	font-size:12px; /* ustawiamy rozmiar czcionki */
-	text-align: center; /* wyśrodkowywujemy tekst */
+  color:#555555; /* ustawiamy kolor czcionki */
+  margin-bottom:0px; /* resetujemy margines dolny */
+  font-size:12px; /* ustawiamy rozmiar czcionki */
+  text-align: center; /* wyśrodkowywujemy tekst */
 }
 
 #formularz p.copy a {
-	color:#555555;/* ustawiamy kolor czcionki */ 
-	text-decoration: none; /* usuwamy podkreślenie linku */
-	font-weight:bold; /* pogrubiamy czcionkę */
+  color:#555555;/* ustawiamy kolor czcionki */ 
+  text-decoration: none; /* usuwamy podkreślenie linku */
+  font-weight:bold; /* pogrubiamy czcionkę */
 }  
 
