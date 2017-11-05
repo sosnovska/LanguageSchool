@@ -142,9 +142,9 @@ footer li img {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-6 {
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 20px;
-  margin-top: 120px;
+  margin-top: 20px;
   text-align: center;
 }
 .marketing h2 {
@@ -250,7 +250,7 @@ color: #FDD706;
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 30px;
   }
 }
 
