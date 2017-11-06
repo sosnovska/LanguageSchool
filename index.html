@@ -33,14 +33,11 @@
 
 
 
-
-
-
 <section class="jumbotron"> 
 <div class="container">
    <div class="row text-center">
 
-<h2>Dialektika <span class="text-muted"> nauka języka</span></h2>
+<h2>DIALEKTIKA <span class="text-muted"> nauka języka</span></h2>
       <h3>SZKOŁA JĘZYKOWA Z DOJAZDEM DO UCZNIA</h3>
       <a class="btn btn-primary" href="kontakt.html" role="button">Zapisz się</a>
    </div>
@@ -48,11 +45,24 @@
   </section>
 
 
+<div id="map" style="width:100%;height:400px;background:yellow"></div>
 
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(54.098264, 22.923462),
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.roadmap
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
 
-
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs7caNU4pBUx02tHSpQyirZpUgH8H_rII&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
 
 
 
